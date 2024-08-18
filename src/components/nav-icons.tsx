@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import CartModal from "./cart-modal";
 
 const NavIcons = () => {
   const [isProfileOpen, setIsProfileOpen] = useState<boolean>(false);
@@ -35,7 +36,7 @@ const NavIcons = () => {
             d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
           />
         </svg>
-        Joe John
+        <span className="hidden lg:block">Joe John</span>
       </div>
 
       {isProfileOpen && (
@@ -64,9 +65,7 @@ const NavIcons = () => {
         <div className="absolute -top-4 -right-4 w-6 h-6 bg-pink_red rounded-full text-white text-sm flex justify-center items-center">4</div>
       </div>
       {isCartOpen && (
-          <div className="absolute p-4 rounded-md top-12 left-0 right-0 text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-20">
-            Cart Modal
-          </div>
+          <CartModal/>
         )}
       <svg
         xmlns="http://www.w3.org/2000/svg"
