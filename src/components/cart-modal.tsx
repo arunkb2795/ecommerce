@@ -16,7 +16,7 @@ const CartModal = () => {
             {/* ITEM */}
             <div className="flex gap-4">
               <Image
-                src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 width={72}
                 height={96}
@@ -27,7 +27,7 @@ const CartModal = () => {
                 <div className="mb-5">
                   {/* TITLE */}
                   <div className="flex items-center justify-between gap-8">
-                    <h3 className="font-semibold">Lexus Ladies Bag</h3>
+                    <h3 className="font-semibold">Lexus mens T-shirt</h3>
                     <div className="p-1 bg-gray-50 rounded-sm">$49</div>
                   </div>
                   {/* DESC */}
@@ -43,7 +43,7 @@ const CartModal = () => {
             {/* ITEM */}
             <div className="flex gap-4">
               <Image
-                src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="https://images.pexels.com/photos/977380/pexels-photo-977380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 width={72}
                 height={96}
@@ -54,8 +54,8 @@ const CartModal = () => {
                 <div className="mb-5">
                   {/* TITLE */}
                   <div className="flex items-center justify-between gap-8">
-                    <h3 className="font-semibold">Lexus Ladies Bag</h3>
-                    <div className="p-1 bg-gray-50 rounded-sm">$49</div>
+                    <h3 className="font-semibold">Nicos women jeans</h3>
+                    <div className="p-1 bg-gray-50 rounded-sm">$98</div>
                   </div>
                   {/* DESC */}
                   <div className="text-sm text-gray-500">available</div>
